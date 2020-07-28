@@ -7,6 +7,7 @@ import AdjectivesPage from './components/AdjectivesPage';
 import VerbsPage from './components/VerbsPage';
 
 function App() {
+
     return (
         <BrowserRouter>
           <header>header</header>

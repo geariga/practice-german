@@ -5,6 +5,7 @@ export default function AdjectivesPage({ history, location, match }) {
     const [currentAdjective, setCurrentAdjective] = useState(null);
 
     const currentList = useMemo(async () => {
+        console.log('use memo');
         return await getAllAdjectives();
     }, []);
 
